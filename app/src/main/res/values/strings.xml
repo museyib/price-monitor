@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Price Monitor</string>
+    <string name="parameters">Parametrlər</string>
+    <string name="server">Server</string>
+    <string name="port">Port</string>
+    <string name="update">Yenilə</string>
+    <string name="scan">Scan</string>
+    <string name="error">Xəta</string>
+    <string name="server_error">Server xətası</string>
+    <string name="logo">logo</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        app:key="server"
+        app:title="Server IP"
+        app:defaultValue="192.168.0.100"/>
+
+    <EditTextPreference
+        app:key="port"
+        app:title="Port"
+        app:defaultValue="80"/>
+
+    <EditTextPreference
+        app:key="result_timeout"
+        app:title="Məlumatın ekranda qalma müddəti (saniyə)"
+        app:defaultValue="5"/>
+
+    <EditTextPreference
+        app:key="connection_timeout"
+        app:title="Serverə qoşulma müddəti (saniyə)"
+        app:defaultValue="5"/>
+
+
+</PreferenceScreen>
