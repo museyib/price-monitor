@@ -2,14 +2,24 @@
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <EditTextPreference
-        app:key="server"
-        app:title="Server IP"
+        app:key="local_ip"
+        app:title="Local service IP"
         app:defaultValue="192.168.0.100"/>
 
     <EditTextPreference
-        app:key="port"
-        app:title="Port"
-        app:defaultValue="80"/>
+        app:key="local_port"
+        app:title="Local service port"
+        app:defaultValue="8080"/>
+
+    <EditTextPreference
+        app:key="remote_ip"
+        app:title="Remote service IP"
+        app:defaultValue="185.129.0.46"/>
+
+    <EditTextPreference
+        app:key="remote_port"
+        app:title="Remote service port"
+        app:defaultValue="8081"/>
 
     <EditTextPreference
         app:key="result_timeout"
@@ -20,6 +30,16 @@
         app:key="connection_timeout"
         app:title="Serverə qoşulma müddəti (saniyə)"
         app:defaultValue="5"/>
+
+    <EditTextPreference
+        app:key="text_size"
+        app:title="Yazı ölçüsü"
+        app:defaultValue="50"/>
+
+    <SwitchPreference
+        app:key="local_mode"
+        app:title="Lokal rejim"
+        app:defaultValue="true" />
 
 
 </PreferenceScreen>

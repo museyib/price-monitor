@@ -6,4 +6,9 @@
         android:icon="@android:drawable/ic_menu_manage"
         android:title="@string/parameters"
         app:showAsAction="always"/>
+    <item
+        android:id="@+id/update"
+        android:icon="@android:drawable/stat_notify_sync"
+        android:title="@string/update"
+        app:showAsAction="ifRoom"/>
 </menu>

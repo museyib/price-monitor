@@ -8,4 +8,7 @@
     <string name="error">Xəta</string>
     <string name="server_error">Server xətası</string>
     <string name="logo">logo</string>
+    <string name="no_new_version">Yeni versiya yoxdur</string>
+    <string name="info">İnfo</string>
+    <string name="error_occurred">Xəta baş verdi</string>
 </resources>

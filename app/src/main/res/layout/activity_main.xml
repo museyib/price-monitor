@@ -50,18 +50,19 @@
             android:id="@+id/barcode"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="40sp" />
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/inv_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="40sp" />
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/price"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="40sp" />
+            android:textColor="@color/black"
+            android:textStyle="bold" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
