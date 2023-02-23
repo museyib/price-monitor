@@ -149,9 +149,9 @@ public class MainActivity extends AppCompatActivity {
             AlertDialog dialog = new AlertDialog.Builder(this)
                     .setTitle("Proqram versiyasını yenilə")
                     .setMessage("Dəyişiklikdən asılı olaraq məlumatlar silinə bilər. Yeniləmək istəyirsinizmi?")
-                    .setNegativeButton("Bəli", (dialogInterface, i) ->
+                    .setPositiveButton("Bəli", (dialogInterface, i) ->
                             checkForNewVersion())
-                    .setPositiveButton("Xeyr", null)
+                    .setNegativeButton("Xeyr", null)
                     .create();
 
             dialog.show();

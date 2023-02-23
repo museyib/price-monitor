@@ -11,6 +11,5 @@
         android:id="@+id/settings_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="az.inci.pricemonitor.SettingsFragment"
-        tools:layout="@layout/activity_settings" />
+        android:name="az.inci.pricemonitor.SettingsFragment" />
 </androidx.constraintlayout.widget.ConstraintLayout>
