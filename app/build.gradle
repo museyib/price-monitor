@@ -22,7 +22,7 @@ android {
     defaultConfig {
         applicationId "az.inci.pricemonitor"
         minSdkVersion 23
-        targetSdkVersion 33
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
     }
